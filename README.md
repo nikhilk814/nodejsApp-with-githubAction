@@ -145,7 +145,8 @@ EXPOSE 8000
 CMD ["node","app.js"]
 ```
 
-* **Screenshot placeholder:** Dockerfile in GitHub UI.
+**DockerHUB**
+---
 <img width="1892" height="816" alt="Image" src="https://github.com/user-attachments/assets/2c3e1d87-3350-4a4a-a4dc-bb737d79a300" />
 ---
 
