@@ -146,7 +146,7 @@ CMD ["node","app.js"]
 ```
 
 * **Screenshot placeholder:** Dockerfile in GitHub UI.
-
+<img width="1892" height="816" alt="Image" src="https://github.com/user-attachments/assets/2c3e1d87-3350-4a4a-a4dc-bb737d79a300" />
 ---
 
 ### 3. Create Workflow
@@ -170,7 +170,7 @@ CMD ["node","app.js"]
 
 * Push to `main`, create a PR to `main`, or trigger manually via the **Actions tab**.
 * Jobs sequence: **build → docker → deploy**.
-
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/bd265bfa-487e-409e-979a-abac90a2b325" />
 ---
 
 ### 6. Verify Deployment
@@ -185,16 +185,13 @@ docker ps
 * Container should run as `todo-webapp` on port `8000`.
 * Open `http://SERVER_IP:8000/todo` in a browser.
 * **Screenshot placeholders:**
+<img width="1889" height="416" alt="Image" src="https://github.com/user-attachments/assets/b41f22bd-46ef-44c3-8520-790df29e0494" />
 
   * `docker images` & `docker ps` output
   * Todo app page loaded
 
 ---
 
-## Notes & Tips
-
-* Deploy step uses `--restart=unless-stopped` to auto-restart on reboot.
-* For multiple services, use `docker compose up -d`.
-* To deploy on a different server, keep the runner on any machine and replace deploy steps with an SSH action running Docker commands remotely.
+<img width="1916" height="951" alt="Image" src="https://github.com/user-attachments/assets/4510548d-0129-4f95-a873-e84daba170f2" />
 
 ---
